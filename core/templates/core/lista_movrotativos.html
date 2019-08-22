@@ -1,0 +1,7 @@
+<h2>Lista de Rotativos</h2>
+
+<ul>
+    {% for movRotativo in movRotativos %}
+        <li>{{ movRotativo.veiculo.marca.nome }}</li>
+    {% endfor %}    
+</ul>
